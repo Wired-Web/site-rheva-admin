@@ -108,6 +108,7 @@
   },
   "scripts": {
     "dev": "vite --port 7000",
+    "dev:local": "vite --port 7000 --mode development",
     "develop": "npm run dev",
     "check": "tsc",
     "build": "vite build",
